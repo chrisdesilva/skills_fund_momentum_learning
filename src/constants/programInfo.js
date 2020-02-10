@@ -10,24 +10,24 @@ export const schoolInfo = {
 	// term details section
 	interestRate36: '8.99%',
 	interestRate60: '10.99%',
-	APRRange36: '11.16%',
-	APRRange60: '12.51%',
+	APRRange36: '11.08%',
+	APRRange60: '12.48%',
 	interestOnly: [
 		{
 			// for multiple examples of interest only, add items to interestOnly array
 			programName: '',
-			APR36: '11.16%',
+			APR36: '11.08%',
 			financeCharge36: '$2,293.64',
 			IOPayment36: '$77.91',
 			FullMonthlyPayment36: '$330.67',
-			APR60: '12.51%',
+			APR60: '12.48%',
 			financeCharge60: '$4,040.39',
 			IOPayment60: '$95.25',
 			FullMonthlyPayment60: '$226.07',
 			LoanExampleAmt: '$10,000',
 			LoanExampleOFeeAmt: '$400',
 			LoanExampleAmtPlusOFee: '$10,400',
-			programLength: '3' // program length in months
+			programLength: '4' // program length in months
 		}
 	],
 	immediateRepayment: [
@@ -65,8 +65,8 @@ export const faq = {
 	exampleLoanAmount: '$10,000',
 	interestRate36: '8.99%',
 	interestRate60: '10.99%',
-	APR36: '11.16%',
-	APR60: '12.51%',
+	APR36: '11.08%',
+	APR60: '12.48%',
 	IOPayment36: '$77.91',
 	IOPayment60: '$95.25',
 
@@ -74,7 +74,7 @@ export const faq = {
 	loanRange: [
 		{
 			programName: 'Momentum',
-			maxAmount: '$14,900',
+			maxAmount: '$18,900',
 			col: true,
 			colAmount: '$4,500'
 		}
@@ -138,14 +138,14 @@ export const programLoanInfo = [
 		url: 'https://my.skills.fund/application?lenderCode=SKMOMSD17',
 		loanInfo: {
 			// match loanInfo in first metro below
-			maxLoanAmt: 19400,
+			maxLoanAmt: 23400,
 			loanTerm36: true,
 			loanTerm60: true,
 			'0': {
 				// interest-only
-				k: 5,
-				apr36: 11.16,
-				apr60: 12.51
+				k: 6,
+				apr36: 11.08,
+				apr60: 12.48
 			},
 			'1': null // immediate repayment
 		},
@@ -159,13 +159,13 @@ export const programLoanInfo = [
 				location: 'Metro 1',
 				loanInfo: {
 					// // match loanInfo to Program 1 above
-					maxLoanAmt: 19400,
+					maxLoanAmt: 23400,
 					loanTerm36: true,
 					loanTerm60: true,
 					'0': {
-						k: 5,
-						apr36: 11.16,
-						apr60: 12.51
+						k: 6,
+						apr36: 11.08,
+						apr60: 12.48
 					},
 					'1': null
 				}
@@ -177,13 +177,13 @@ export const programLoanInfo = [
 		url: 'https://my.skills.fund/application?lenderCode=SKMOMSC17',
 		loanInfo: {
 			// match loanInfo in first metro below
-			maxLoanAmt: 22500,
+			maxLoanAmt: 26400,
 			loanTerm36: true,
 			loanTerm60: true,
 			'0': {
-				k: 5,
-				apr36: 11.16,
-				apr60: 12.51
+				k: 6,
+				apr36: 11.08,
+				apr60: 12.48
 			},
 			'1': null
 		},
@@ -196,13 +196,13 @@ export const programLoanInfo = [
 				location: 'Metro 1',
 				loanInfo: {
 					// match loanInfo to Program 2 loanInfo above
-					maxLoanAmt: 22500,
+					maxLoanAmt: 26400,
 					loanTerm36: true,
 					loanTerm60: true,
 					'0': {
-						k: 5,
-						apr36: 11.16,
-						apr60: 12.51
+						k: 6,
+						apr36: 11.08,
+						apr60: 12.48
 					},
 					'1': null
 				}
@@ -213,7 +213,7 @@ export const programLoanInfo = [
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
 export const programMaxText =
-	'Choose the loan amount that works best for you. Borrow up to $14,900 for tuition, $4,500 for cost of living, & $3,000 for childcare.';
+	'Choose the loan amount that works best for you. Borrow up to $18,900 for tuition, $4,500 for cost of living, & $3,000 for childcare.';
 
 export const paymentTable = {
 	headers: [ 'Program', 'Tuition', 'Cost of Living', 'Max Total' ],

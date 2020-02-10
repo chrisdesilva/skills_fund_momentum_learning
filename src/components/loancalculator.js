@@ -21,7 +21,7 @@ const LoanCalculator = () => {
     const [loanType, setLoanType] = useState(programLoanInfo[0]['defaultLoanType']) // default to 0 for interest-only, 1 for immediate repayment
     const [multiMetros, showMetros] = useState(programLoanInfo[0]['showMetros']) // shows metro dropdown
     const [loanTypes, showLoanTypes] = useState(programLoanInfo[0]['showLoanTypes']) // shows IR/IO dropdown
-    const [metros, setMetros] = useState(programLoanInfo[0]['locations']) || useState(null)
+    const [metros, setMetros] = useState(programLoanInfo[0]['locations']) 
     const [loanInformation, setLoanInformation] = useState(programLoanInfo[0]['loanInfo']) // set initial loan info
     const [programIndex, setProgramIndex] = useState(0)
     const [metroIndex, setMetroIndex] = useState(0)
