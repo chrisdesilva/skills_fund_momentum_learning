@@ -78,12 +78,6 @@ export const faq = {
       col: true,
       colAmount: "$4,500",
     },
-    {
-      programName: "Momentum@Morehouse",
-      maxAmount: "$18,200",
-      col: false,
-      colAmount: "$4,500",
-    },
   ],
 }
 
@@ -112,7 +106,7 @@ export const threeStepCardText = {
   step1: "",
   step2: {
     header: "select your program",
-    text: "Choose between the Coding Bootcamp and Momentum@Morehouse programs.",
+    text: "Momentum .",
   },
   step3: `You'll be on your way to an exciting career in tech as part of ${schoolName}'s powerful network.`,
 }
@@ -215,48 +209,11 @@ export const programLoanInfo = [
       },
     ],
   },
-  {
-    name: "Momentum@Morehouse",
-    url: "https://my.skills.fund/application?lenderCode=SKMOMMM20",
-    loanInfo: {
-      // match loanInfo in first metro below
-      maxLoanAmt: 18200,
-      loanTerm36: true,
-      loanTerm60: true,
-      "0": {
-        k: 5,
-        apr36: 11.16,
-        apr60: 12.51,
-      },
-      "1": null,
-    },
-    defaultLoanType: "0", // leave at 0 for interest-only, set to 1 for immediate repayment
-    showMetros: false,
-    showLoanTypes: false,
-    locations: ["Metro 1", "Metro 2"],
-    metros: [
-      {
-        location: "Metro 1",
-        loanInfo: {
-          // match loanInfo to Program 2 loanInfo above
-          maxLoanAmt: 18200,
-          loanTerm36: true,
-          loanTerm60: true,
-          "0": {
-            k: 5,
-            apr36: 11.16,
-            apr60: 12.51,
-          },
-          "1": null,
-        },
-      },
-    ],
-  },
 ]
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
 export const programMaxText =
-  "Choose the loan amount that works best for you. Borrow up to $18,900 for tuition, $4,500 for cost of living, & $3,000 for childcare for the Coding Bootcamp and up to $18,200 for Momentum@Morehouse tuition."
+  "Choose the loan amount that works best for you. Borrow up to $18,900 for tuition, $4,500 for cost of living, & $3,000 for childcare for the Coding Bootcamp."
 
 export const paymentTable = {
   headers: ["Program", "Tuition", "Cost of Living", "Max Total"],
