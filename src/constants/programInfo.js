@@ -147,7 +147,7 @@ export const faq = {
 
 export const schoolLogo = logo // go to header.js if height needs adjustment
 
-export const schoolName = "Momentum Learning"
+export const schoolName = "Momentum"
 
 export const schoolURL = "https://www.momentumlearn.com/" // update with url of school's website
 
