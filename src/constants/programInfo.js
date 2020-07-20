@@ -133,10 +133,16 @@ export const faq = {
   // max loan amounts by program for faq1
   loanRange: [
     {
-      programName: "Momentum",
+      programName: "Momentum Immersive Coding",
       maxAmount: "$18,900",
       col: true,
       colAmount: "$4,500",
+    },
+    {
+      programName: "Momentum Immersive Coding + Childcare",
+      maxAmount: "$18,900",
+      col: true,
+      colAmount: "$7,500",
     },
   ],
 }
